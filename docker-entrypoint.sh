@@ -47,6 +47,7 @@ pandoc -v
 echo -ne "${BOLD}Babel: ${PLAIN}"
 babel --version
 
+export NODE_PATH=$NODE_PATH:`npm root -g`
 
 echo -e "\n${BOLD}Setting up Git${PLAIN}"
 git config --global user.name "${GITHUB_ACTOR}"
