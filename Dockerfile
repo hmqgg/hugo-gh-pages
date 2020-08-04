@@ -1,4 +1,4 @@
-FROM chabad360/hugo
+FROM hmqgg/hugo
 
 RUN apk add --update --no-cache openssl git && \
   rm -rf /var/cache/apk/*
