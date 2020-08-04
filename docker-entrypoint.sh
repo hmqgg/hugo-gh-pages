@@ -47,6 +47,7 @@ pandoc -v
 echo -ne "${BOLD}Babel: ${PLAIN}"
 babel --version
 
+export HUGO_ENV="production"
 export NODE_PATH=$NODE_PATH:`npm root -g`
 
 echo -e "\n${BOLD}Setting up Git${PLAIN}"
